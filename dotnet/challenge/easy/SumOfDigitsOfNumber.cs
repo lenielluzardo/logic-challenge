@@ -10,7 +10,7 @@
 
 using System;
 
-namespace dotnet;
+namespace challenge.easy;
 
 public static class SumOfDigitsOfNumber
 {
