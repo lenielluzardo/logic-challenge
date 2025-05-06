@@ -1,3 +1,4 @@
+///<summary> 
 /// Sum of Digits of a Number:
 /// Given a number N, find the sum of its digits.
 /// 
@@ -5,18 +6,33 @@
 ///   Input: n = 687
 ///   Output: 21
 ///   Explanation: The sum of its difits are: 6 + 8 + 7 = 21
-/// 
+///</summary>
 
 
 using System;
 
-namespace dotnet;
+namespace challenge.easy;
 
 public static class SumOfDigitsOfNumber
 {
-  public static int Start(int value)
+  public static void Start()
   {
-    return SumOfDigits(value);
+    string input = Console.ReadLine();
+
+    if (string.IsNullOrEmpty(input))
+    {
+      Console.WriteLine
+      (@"
+        You need to provide a number.
+        Try again.
+      ");
+    }
+
+    int value = int.Parse(input);
+    int result = SumOfDigits(value);
+
+    Console.WriteLine("The result of the sum is: {0}", result);
+    
   }
 
   private static int SumOfDigits(int n)
