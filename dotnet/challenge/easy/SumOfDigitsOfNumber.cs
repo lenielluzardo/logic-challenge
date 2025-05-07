@@ -32,7 +32,6 @@ public static class SumOfDigitsOfNumber
     int result = SumOfDigits(value);
 
     Console.WriteLine("The result of the sum is: {0}", result);
-    
   }
 
   private static int SumOfDigits(int n)

@@ -7,7 +7,8 @@ Console.WriteLine(Environment.NewLine);
 Console.WriteLine("Please enter a number in.");
 
 
-SumOfDigitsOfNumber.Start();
-CheckEvenNumbers.Start();
+// SumOfDigitsOfNumber.Start();
+// CheckEvenNumbers.Start();
+PrintMultiplicationTable.Start();
 
 Console.ReadLine();
