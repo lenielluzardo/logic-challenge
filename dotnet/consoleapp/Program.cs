@@ -9,6 +9,7 @@ Console.WriteLine("Please enter a number in.");
 
 // SumOfDigitsOfNumber.Start();
 // CheckEvenNumbers.Start();
-PrintMultiplicationTable.Start();
+// PrintMultiplicationTable.Start();
+SumOfNNaturalNumbers.Start();
 
-Console.ReadLine();
+Console.ReadLine();  
