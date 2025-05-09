@@ -10,6 +10,6 @@ Console.WriteLine("Please enter a number in.");
 // SumOfDigitsOfNumber.Start();
 // CheckEvenNumbers.Start();
 // PrintMultiplicationTable.Start();
-SumOfNNaturalNumbers.Start();
-
+// SumOfNNaturalNumbers.Start();
+SwapTwoNumbers.Start();
 Console.ReadLine();  
